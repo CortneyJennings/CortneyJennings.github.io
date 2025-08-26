@@ -1,0 +1,15 @@
+<section id="portfolio">
+  <div class="container">
+    <h2 class="text-uppercase">Portfolio</h2>
+    <div class="row">
+      <!-- Example Project -->
+      <div class="col-md-6 col-lg-4">
+        <a href="https://github.com/yourusername/project1" target="_blank">
+          <img class="img-fluid" src="assets/img/project1.png" alt="Project 1">
+        </a>
+        <p class="text-center mt-2">Project One — SQL Dashboard</p>
+      </div>
+      <!-- Add more projects similarly -->
+    </div>
+  </div>
+</section>
