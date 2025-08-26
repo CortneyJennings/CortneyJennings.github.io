@@ -1,0 +1,11 @@
+<section id="contact">
+  <div class="container">
+    <h2 class="text-uppercase">Contact</h2>
+    <p class="lead">Interested in working together? Reach out!</p>
+    <ul class="list-unstyled">
+      <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+      <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li>
+      <li>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
+    </ul>
+  </div>
+</section>
