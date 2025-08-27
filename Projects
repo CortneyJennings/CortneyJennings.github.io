@@ -2,25 +2,21 @@
   <div class="container">
     <h2 class="text-uppercase">Portfolio</h2>
     <div class="row">
-
-      <!-- Featured SQL Project -->
+      <!-- Featured Project -->
       <div class="col-md-6 col-lg-4">
-        <a href="https://github.com/CortneyJennings/Your-SQL-Project" target="_blank">
-          <!-- Project Image -->
-          <img class="https://github.com/CortneyJennings/CortneyJennings.github.io/blob/main/images/Global">
+        <a href="https://github.com/CortneyJennings/Global-SQL-Project" target="_blank">
+          <!-- Add the image -->
+          <img class="img-fluid" src="images/Global" alt="Global SQL Project">
         </a>
-        <!-- Project Title -->
-        <p class="text-center mt-2"><strong>SQL Data Cleaning Project</strong></p>
-
-        <!-- Project Description -->
-        <ul class="World Layoff Data">
-          <li>Removed Duplicates</li>
-          <li>Standardized Data</li>
-          <li>Handled Null & Blank Values</li>
-          <li>Removed Unnecessary Columns/Rows</li>
-        </ul>
+        <p class="text-center mt-2">
+          <strong>Data Cleaning Project in SQL</strong><br>
+          For this project, I used SQL to clean the dataset focusing on world layoffs:<br>
+          – Remove Duplicates<br>
+          – Standardize the data<br>
+          – Handle Null or Blank values<br>
+          – Remove unnecessary columns or rows
+        </p>
       </div>
-
     </div>
   </div>
 </section>
