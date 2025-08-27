@@ -2,21 +2,25 @@
   <div class="container">
     <h2 class="text-uppercase">Portfolio</h2>
     <div class="row">
-      <!-- Example Project -->
+
+      <!-- Featured SQL Project -->
       <div class="col-md-6 col-lg-4">
-        <a href="https://github.com/yourusername/project1" target="_blank">
-          <img class="img-fluid" src="assets/img/project1.png" alt="Project 1">
+        <a href="https://github.com/CortneyJennings/Your-SQL-Project" target="_blank">
+          <!-- Project Image -->
+          <img class="img-fluid" src="assets/img/sql_project.png" alt="SQL Data Cleaning Project">
         </a>
-        <p class="text-center mt-2">Project One — SQL Dashboard</p>
+        <!-- Project Title -->
+        <p class="text-center mt-2"><strong>SQL Data Cleaning Project</strong></p>
+
+        <!-- Project Description -->
+        <ul class="text-center">
+          <li>Removed Duplicates</li>
+          <li>Standardized Data</li>
+          <li>Handled Null & Blank Values</li>
+          <li>Removed Unnecessary Columns/Rows</li>
+        </ul>
       </div>
-      <!-- Add more projects similarly -->
+
     </div>
   </div>
 </section>
-
-<div class="col-md-6 col-lg-4">
-  <a href="https://github.com/CortneyJennings/Global" target="_blank">
-    <https://github.com/CortneyJennings/CortneyJennings.github.io/blob/main/images/Global" alt="Project 1">
-  </a>
-  <p class="text-center mt-2">Project One — SQL Dashboard</p>
-</div>
