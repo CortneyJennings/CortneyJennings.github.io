@@ -7,13 +7,13 @@
       <div class="col-md-6 col-lg-4">
         <a href="https://github.com/CortneyJennings/Your-SQL-Project" target="_blank">
           <!-- Project Image -->
-          <img class="img-fluid" src="assets/img/sql_project.png" alt="SQL Data Cleaning Project">
+          <img class="https://github.com/CortneyJennings/CortneyJennings.github.io/blob/main/images/Global">
         </a>
         <!-- Project Title -->
         <p class="text-center mt-2"><strong>SQL Data Cleaning Project</strong></p>
 
         <!-- Project Description -->
-        <ul class="text-center">
+        <ul class="World Layoff Data">
           <li>Removed Duplicates</li>
           <li>Standardized Data</li>
           <li>Handled Null & Blank Values</li>
