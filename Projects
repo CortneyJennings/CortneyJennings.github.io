@@ -6,7 +6,7 @@
       <div class="col-md-6 col-lg-4">
         <a href="https://github.com/CortneyJennings/Global-SQL-Project" target="_blank">
           <!-- Add the image -->
-          <img class="img-fluid" src="images/Global" alt="Global SQL Project">
+          <img class="img-fluid" src="images/Global.jpg" alt="Global SQL Project">
         </a>
         <p class="text-center mt-2">
           <strong>Data Cleaning Project in SQL</strong><br>
