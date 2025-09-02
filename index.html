@@ -215,7 +215,7 @@
 	<!-- Posts -->
 			<section class="posts">
 			<!-- Fifth Project -->
-			<article>
+			<article class="project">
 				<header>			
 						<h2>
 							<a href="https://public.tableau.com/app/profile/cortney.jennings4622/viz/ExecutiveOverview_17430337137720/ExecutiveOverview" target= "_blank">
@@ -224,14 +224,31 @@
 						</h2>
 							</header>
 									<a href="https://public.tableau.com/app/profile/cortney.jennings4622/viz/ExecutiveOverview_17430337137720/ExecutiveOverview" target= "_blank" class="image fit">
-										<img src="images/Executive Overview.jpg" alt=" Profits Ratio" style=""resized-img">
-			<style>
-  .resized-img {
-    width: 300px;   /* or try 100%, 75%, etc. */
-    height: auto;
-    border-radius: 12px; /* optional: rounded corners */
-  }
-</style>					
+										<img src="images/Executive Overview.jpg" alt=" Profits Ratio" class="resized-img">
+  </a>
+</article>
+
+<style>
+/* put this once, not inside every article */
+.resized-img {
+  width: 300px; 
+  height: auto;
+  border: 2px solid #ccc;   /* border between images */
+  border-radius: 12px;      /* rounded corners */
+  margin: 10px;             /* space between images */
+}
+
+/* make articles line up side by side */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;   /* wrap to next line if too many */
+  justify-content: center;
+}
+
+.project {
+  margin: 10px;
+}
+</style>
 			</a>
 					<p>Executive Overview Tableau Dashboard</p>
 					<ul class="actions special">
@@ -483,6 +500,7 @@
 	</body>
 
 </html>
+
 
 
 
