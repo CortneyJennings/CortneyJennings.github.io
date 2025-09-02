@@ -17,16 +17,24 @@
 			/* Projects grid container */
 			.projects-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem; /* Increased gap for better spacing */
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Four equal columns */
+    gap: 1.5rem; /* Slightly smaller gap for better fit */
     margin-top: 2rem;
-    width: 100%; /* Ensures full width usage */
+    width: 100%;
 }
 
-/* Stack on mobile */
+/* Responsive breakpoints */
+@media (max-width: 1200px) {
+    .projects-grid {
+        grid-template-columns: 1fr 1fr; /* 2 columns on medium screens */
+        gap: 2rem;
+    }
+}
+
 @media (max-width: 768px) {
     .projects-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* 1 column on mobile */
+        gap: 2rem;
     }
 }
 			
@@ -422,6 +430,7 @@
 
 	</body>
 </html>
+
 
 
 
