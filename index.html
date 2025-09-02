@@ -17,25 +17,23 @@
 			/* Projects grid container */
 			.projects-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; /* Four equal columns */
-    gap: 1.5rem; /* Slightly smaller gap for better fit */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
     margin-top: 2rem;
     width: 100%;
+    align-items: stretch; /* Makes all cards the same height */
 }
 
-/* Responsive breakpoints */
-@media (max-width: 1200px) {
-    .projects-grid {
-        grid-template-columns: 1fr 1fr; /* 2 columns on medium screens */
-        gap: 2rem;
-    }
+/* Make each project card flex to distribute content evenly */
+.projects-grid > * {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensures cards fill the grid row height */
 }
 
-@media (max-width: 768px) {
-    .projects-grid {
-        grid-template-columns: 1fr; /* 1 column on mobile */
-        gap: 2rem;
-    }
+/* Push buttons to bottom of cards */
+.projects-grid .actions {
+    margin-top: auto; /* Pushes buttons to bottom */
 }
 			
 			/* Individual project cards */
@@ -253,7 +251,7 @@
 									<a href="https://public.tableau.com/app/profile/cortney.jennings4622/viz/ExecutiveOverview_17430337137720/ExecutiveOverview" target="_blank">
 										<img src="images/Executive Overview.jpg" alt="Profits Ratio" class="project-image">
 									</a>
-									<p> Tableau dashboard showing key business metrics</p>
+									<p>Tableau dashboard showing key business metrics</p>
 									<ul class="actions special">
 										<li><a href="https://public.tableau.com/app/profile/cortney.jennings4622/viz/ExecutiveOverview_17430337137720/ExecutiveOverview" target="_blank" class="button">View Project</a></li>
 									</ul>
@@ -430,6 +428,7 @@
 
 	</body>
 </html>
+
 
 
 
