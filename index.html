@@ -16,11 +16,18 @@
 		<style>
 			/* Projects grid container */
 			.projects-grid {
-				display: grid;
-				grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-				gap: 25px;
-				margin-top: 2rem;
-			}
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Forces exactly 2 columns */
+    gap: 25px;
+    margin-top: 2rem;
+}
+
+/* Stack on mobile */
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
 			
 			/* Individual project cards */
 			.project-card {
@@ -413,6 +420,7 @@
 
 	</body>
 </html>
+
 
 
 
