@@ -15,7 +15,23 @@
 		<!-- Custom CSS for project grid -->
 		<style>
 			/* Projects grid container */
-			.projects-grid {
+			.projects-grid p {
+    line-height: 1.5;
+    word-spacing: normal;
+    letter-spacing: normal;
+    white-space: normal;
+    margin-bottom: 1rem;
+    font-size: inherit;
+}
+
+/* Reset any inherited spacing issues */
+.projects-grid {
+    font-family: inherit;
+    word-spacing: 0;
+    letter-spacing: 0;
+}
+			
+.projects-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1.5rem;
@@ -428,6 +444,7 @@
 
 	</body>
 </html>
+
 
 
 
